@@ -221,13 +221,22 @@ h3 {
 .blocks {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
+    gap: 1rem;
+
 }
 
 @media screen and (min-width: 768px) {
     .blocks {
         grid-template-columns: repeat(4, 1fr);
+        gap: 1rem;
     }
+}
+
+.block__img{
+    width: 60%;
+    max-width: 30rem;
+    height: auto;
+
 }
 
 .block {
