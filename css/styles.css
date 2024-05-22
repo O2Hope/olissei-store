@@ -46,7 +46,7 @@ a {
 
 img {
     width: 100%;
-    max-width: 300px;
+    max-width: 120rem;
     height: auto;
 }
 
@@ -145,7 +145,7 @@ h3 {
 }
 
 .product__name {
-    font-size: 2.7rem;
+    font-size: 2.6rem;
     font-weight: 500;
     letter-spacing: 1px;
     color: var(--blanco);
@@ -174,18 +174,18 @@ h3 {
     grid-column: 1/3;
 }
 
-.graphic--tshirt {
+.graphic--ball {
     grid-row: 2/3;
-    background-image: url(../img/grafico1.jpg)
+    background-image: url(../img/grafico1.png)
 }
 
-.graphic--node { 
+.graphic--yarn { 
     grid-row: 8/9;
-    background-image: url(../img/grafico2.jpg);  
+    background-image: url(../img/grafico2.png);  
 }
 
 @media (min-width: 768px) {
-    .graphic--node {
+    .graphic--yarn {
         grid-row: 5 / 6;
         grid-column: 2 / 4;
     }
